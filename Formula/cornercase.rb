@@ -1,25 +1,25 @@
 class Cornercase < Formula
   desc "A terminal multiplexer for projects, git worktrees and coding agents, driven by the mouse"
   homepage "https://github.com/usecornercase/cornercase-terminal"
-  version "0.1.16"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.1.16/cornercase-aarch64-apple-darwin.tar.gz"
-      sha256 "05956490809a6eac322edfecf22bac73f4402d5c33d6a077cdff9ebd04d54574"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.2.0/cornercase-aarch64-apple-darwin.tar.gz"
+      sha256 "449027bfc8a6ffeedb4e43b58d03c0245359b966dd0a4625c07f1d388ce00ed6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.1.16/cornercase-x86_64-apple-darwin.tar.gz"
-      sha256 "55d5b29848031b053e20c59f083bcf873de210dcca0e25d0b02a47863ac93549"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.2.0/cornercase-x86_64-apple-darwin.tar.gz"
+      sha256 "55a1de993b7fd549b4fe39c02afc57646794034f4a0a5f62456fa5b813d22ad5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.1.16/cornercase-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "718dd5cd954ec2e2c6f79483a950e27a1abfeaac0b087e10a19c3a0bef4533cb"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.2.0/cornercase-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e8347c034576e08c8ea0cf7f135794503d78a0710903023c0b2790277684a985"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.1.16/cornercase-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "44f0826dd9c88d773a3583819b50dda757be9abbec8b260c315c46cef2d19e7c"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.2.0/cornercase-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "098ff639acc4147c984528e10e14330b208e7a8763b7e80c85ecef60d2f2ec44"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
