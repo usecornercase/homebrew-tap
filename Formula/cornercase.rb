@@ -1,25 +1,25 @@
 class Cornercase < Formula
   desc "A terminal multiplexer for projects, git worktrees and coding agents, driven by the mouse"
   homepage "https://github.com/usecornercase/cornercase-terminal"
-  version "0.4.1"
+  version "0.4.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.1/cornercase-aarch64-apple-darwin.tar.gz"
-      sha256 "ade93a3ca7e5c7791b12958e37ee767fd8a6f317603b1e1a17db19e5c32713bb"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.2/cornercase-aarch64-apple-darwin.tar.gz"
+      sha256 "735f8cac442e99a9f7945a8625e23aca15b2575ee709c2072844631fd25334fb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.1/cornercase-x86_64-apple-darwin.tar.gz"
-      sha256 "76f7c3ae1f09dfd365dea5e594c831265441b358a79d4261826b4f2fb12af285"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.2/cornercase-x86_64-apple-darwin.tar.gz"
+      sha256 "bcdbe1b234ced0e458b846ceec50d00d576336a0c03579d7fa9effabf8b2e7b1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.1/cornercase-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6da0877472e4ce0a58d6afbf3d13cf74ab123697d8137d8374d51ad6a6dd9c34"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.2/cornercase-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "92c98924ff8be606a3a96df2a2a8446ba4047691b0e330393db71043b565711c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.1/cornercase-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b2ec100b67fe521be45cac8a6bd083e61145d61d7dff423a83ae6059ab8b73ee"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.4.2/cornercase-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3e83ca5d75b921b0e3eed46caa8bdc27e6b1cb8633e3619b48dc3742bcd7c981"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
