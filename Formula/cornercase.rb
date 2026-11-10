@@ -1,25 +1,25 @@
 class Cornercase < Formula
   desc "A terminal multiplexer for projects, git worktrees and coding agents, driven by the mouse"
   homepage "https://github.com/usecornercase/cornercase-terminal"
-  version "0.13.27"
+  version "0.13.28"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.27/cornercase-aarch64-apple-darwin.tar.gz"
-      sha256 "db83cf032a25bc25e400ddcc00ab48f486f3f62654d2c32521cc915372e50662"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.28/cornercase-aarch64-apple-darwin.tar.gz"
+      sha256 "8f54d0b07ff1669269fd884063c9fdd8574d6030544105e1a0eb16f0a934f230"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.27/cornercase-x86_64-apple-darwin.tar.gz"
-      sha256 "c6e423512cdefe4e8d73ca57ab7753d719b4eaa463f7f6c979d7b5e8301d5b17"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.28/cornercase-x86_64-apple-darwin.tar.gz"
+      sha256 "ded663b4bec80a8bbe2283c31df03aee79e54e488b3775679dc17f0541de6be7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.27/cornercase-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7873a5e3298bdc09b5ffcdf76751a4844e8063ecca949a9bf549feeec4c38a54"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.28/cornercase-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2890c16fdc2ae8e4b9c95f82eb6810078d7fa18574d493965af9515e4a28d4df"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.27/cornercase-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7b43bbcc7e56a80c6f1231c04f7c3d1d84b1479f557381ce00e3aba777f235a2"
+      url "https://github.com/usecornercase/cornercase-terminal/releases/download/v0.13.28/cornercase-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2ca15566a65d3786a9bdff73787b3ce209a3e9edb4874fc9015a62835e545117"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
